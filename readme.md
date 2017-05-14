@@ -115,6 +115,7 @@ $ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools
 
 ### Add some key binding to iTerm
 Source: [Ryan Winchester](https://ryanwinchester.ca/posts/set-up-os-x-for-web-development-in-10-minutes)
+
 Open the preferences, and then under profiles and keys, set some new key bindings:
 - `cmd + left` send hex code `0x01`
 - `cmd + right` send hex code `0x05`
