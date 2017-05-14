@@ -56,7 +56,9 @@ ruby -v
 ```gem install rails -v 5.0.1```
 
 Tell *rbenv* about it.
+
 ```rbenv rehash```
 
 Verify it
+
 ```rails -v```
