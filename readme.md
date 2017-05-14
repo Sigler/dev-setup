@@ -95,6 +95,16 @@ Verify it
 
 ```rails -v```
 
+## Jekyll
+[Jekyll](https://jekyllrb.com/)
+```
+gem install jekyll bundler
+jekyll new my-awesome-site
+cd my-awesome-site
+$ bundle exec jekyll serve
+# => Now browse to http://localhost:4000
+```
+
 ## Terminal
 
 ### Setup Oh-my-zsh
