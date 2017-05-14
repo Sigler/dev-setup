@@ -94,5 +94,42 @@ import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d
 * A File Icon
 * Sublime Jekyll
 
+### User Preferences
+
+```
+{
+  "always_show_minimap_viewport": true,
+  "bold_folder_labels": true,
+  "caret_extra_width": 1,
+  "caret_style": "phase",
+  "color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
+  "draw_minimap_border": true,
+  "ensure_newline_at_eof_on_save": true,
+  "font_face": "Source Code Pro",
+  "font_options":
+  [
+    "no_round"
+  ],
+  "font_size": 15,
+  "highlight_line": true,
+  "ignored_packages":
+  [
+    "Vintage"
+  ],
+  "indent_guide_options":
+  [
+    "draw_normal",
+    "draw_active"
+  ],
+  "line_padding_bottom": 3,
+  "line_padding_top": 3,
+  "overlay_scroll_bars": "enabled",
+  "tab_size": 2,
+  "theme": "Material-Theme.sublime-theme",
+  "translate_tabs_to_spaces": true,
+  "trim_trailing_white_space_on_save": true
+}
+```
+
 ### Coding Fonts
 [Source Code Pro](https://github.com/adobe-fonts/source-code-pro)
