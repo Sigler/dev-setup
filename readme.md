@@ -26,6 +26,20 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 
 ## Configure Git
 
+Update git from the default apple install:
+
+```
+brew update
+
+brew install git
+```
+
+You will still be using the default apple git, so rename that and you'll be using the updated version:
+
+```
+sudo mv /usr/bin/git /usr/bin/git-apple
+```
+
 ```
 git config --global color.ui true
 git config --global user.name "YOUR NAME"
@@ -39,6 +53,17 @@ cat ~/.ssh/id_rsa.pub
 Test it
 ```
 ssh -T git@github.com
+```
+
+## Node and Gulp
+Source: [Ryan Winchester](https://ryanwinchester.ca/posts/set-up-os-x-for-web-development-in-10-minutes)
+
+Install node using homebrew and then [gulp](http://gulpjs.com/) using [npm](https://www.npmjs.com/)
+
+```
+brew update
+brew install node
+npm install -g gulp
 ```
 
 ## Ruby on Rails
@@ -69,6 +94,24 @@ Tell *rbenv* about it.
 Verify it
 
 ```rails -v```
+
+## Terminal
+
+### Setup Oh-my-zsh
+
+[Oh My Zsh](http://ohmyz.sh/)
+
+```
+$ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
+
+### Add some key binding to iTerm
+Open the preferences, and then under profiles and keys, set some new key bindings:
+- `cmd + left` send hex code `0x01`
+- `cmd + right` send hex code `0x05`
+- `opt + left` send escape sequence `b`
+- `option + right` send escape sequence `f`
+- `cmd + delete` send hex code `0x15`
 
 ## Sublime Text Setup
 
