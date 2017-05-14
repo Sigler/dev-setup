@@ -35,7 +35,7 @@ ssh -T git@github.com
 ```
 
 ## Ruby on Rails
-Source [https://gorails.com/setup/osx/10.12-sierra](https://gorails.com/setup/osx/10.12-sierra)
+Source: [https://gorails.com/setup/osx/10.12-sierra](https://gorails.com/setup/osx/10.12-sierra)
 
 ### Ruby
 Installing Ruby 2.4.
@@ -54,7 +54,9 @@ ruby -v
 
 ### Rails
 ```gem install rails -v 5.0.1```
+
 Tell *rbenv* about it.
 ```rbenv rehash```
+
 Verify it
 ```rails -v```
