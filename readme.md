@@ -125,6 +125,11 @@ Open the preferences, and then under profiles and keys, set some new key binding
 
 ## Sublime Text Setup
 
+### Add Sublime to Shell
+```
+ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime
+```
+
 ### Package Manager
 
 [Package Control](https://packagecontrol.io/installation)
