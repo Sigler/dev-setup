@@ -2,6 +2,8 @@ My Typical Dev Environment
 ==========================
 
 ## Apps
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FSigler%2Fdev-setup.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FSigler%2Fdev-setup?ref=badge_shield)
+
 * [Chrome](https://www.google.com/chrome/)
 * [Dropbox](https://www.dropbox.com)
 * [1Password](https://1password.com)
@@ -191,3 +193,7 @@ import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d
 
 ### Coding Fonts
 [Source Code Pro](https://github.com/adobe-fonts/source-code-pro)
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FSigler%2Fdev-setup.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FSigler%2Fdev-setup?ref=badge_large)
